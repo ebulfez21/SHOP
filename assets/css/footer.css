@@ -1,0 +1,138 @@
+footer {
+  gap: 50px;
+  width: 100%;
+  padding: 50px 0;
+  background: #e8eaef;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Foother {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container p {
+  max-width: 260px;
+  height: 36px;
+}
+
+.email-container {
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.email-container input {
+  border: none;
+  background-color: transparent;
+}
+
+.email-container input:focus {
+  outline: none;
+}
+
+.email-container img {
+  width: 24px;
+  height: 14px;
+  padding-right: 5px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7px;
+}
+
+.social-icons img {
+  width: 17px;
+  height: 17px;
+}
+
+.address-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address-container div {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.address-container div img {
+  width: 14px;
+  height: 14px;
+}
+
+.Adrees {
+  max-width: 280px;
+}
+.categories-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.useful-links-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  height: auto;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 50px;
+}
+
+.useful-links-container div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gender-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 76px;
+}
+.gender {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.bold-text {
+  color: #34394c;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}

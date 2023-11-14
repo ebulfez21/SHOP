@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: rgba(194, 225, 221, 1);
+  height: 100vh;
+  padding-top: 25px;
+  position: relative;
+  width: 100%;
+}
+.container-nav {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+.header-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Bar-solid {
+  display: none;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+.Context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftText p:nth-child(1) {
+  max-width: 200px;
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  color: #589195;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 300% */
+}
+.leftText h2 {
+  max-width: 430px;
+  width: 100%;
+  min-height: 152px;
+  flex-shrink: 0;
+  color: #3a415c;
+  font-family: Outfit;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 120% */
+}
+.leftText p:nth-child(3) {
+  max-width: 593px;
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  color: #707686;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 15px;
+}
+.leftText a {
+  max-width: 170px;
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  padding: 11px 30px;
+  border-radius: 38px;
+  background: #589195;
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 333.333% */
+  margin-top: 15px;
+}
+
+figure {
+  position: relative;
+  z-index: 9999;
+}
+.basket {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  font-weight: 500;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+}
+.grup22 {
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+}
